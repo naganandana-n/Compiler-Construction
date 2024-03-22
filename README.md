@@ -4,67 +4,23 @@ This repository contains solutions to various lab exercises in compiler construc
 
 ## LAB 2:
 
-- [Q1: Lex P](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB1%20Q1.s)
-- [Q2: Program to read an integer and display to console](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB1%20Q2.s)
-
-## LAB 2:
-
-- [Q1: Program to add two numbers](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB2%20Q1.s)
-- [Q2: Program to calculate sum of first n numbers and display to console](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB2%20Q2.s)
-- [Q3: Program to take n input and calculate its factorial](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB2%20Q3.s)
-- [Q4: Program to read a string and display to console](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB2%20Q4.s)
+- [Q1: Lex program to recognize operators, numbers, newline & mystery character](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%202/LAB2%20Q1.l)
+- [Q2: LEX program to print the number of words, characters and lines in a given input](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%202/LAB2%20Q2.l)
+- [Q3: Modify the above LEX program (Q2) so that a word and its characters 
+are counted only if its length is greater than or equal to 6](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%202/LAB2%20Q3.l)
+- [Q4: LEX program to print if the input is an odd number or an even number 
+along with its length](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%202/LAB2%20Q4.l)
 
 ## LAB 3:
 
-- [Q1: To read a number N from input and find if the number is odd or even. Display the result to the user.](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB3%20Q1.s)
-- [Q2: Program to find sum of digits of n input](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB3%20Q2.s)
-- [Q3: Program to evaluate given arithmetic expression](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB3%20Q3.s)
+- [Q1: LEX program to get a binary input and print whether the given input is a power of two or not](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%203/LAB3%20Q1.l)
+- [Q2: LEX program to insert line numbers to a file](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%203/LAB3%20Q2.l)
+- [Q3: LEX program to save the contents of an input file excluding comment lines to another file](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%203/LAB3%20Q3.l)
+- [Q4: LEX program that would take a BITS student's roll number as input 
+and prints the details of the student based on that](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%203/LAB3%20Q4.l)
 
-## LAB 4:
+## MIDSEM LAB Q'S:
 
-- [Q1: Program to iterate through an array and display its contents](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB4%20Q1.s)
-- [Q2: Program to implement linear search](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB4%20Q2.s)
-- [Q3: Program to take two arrays, add their elements and store in third array](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB4%20Q3.s)
-
-## LAB 5:
-
-- [Q1: Program to find largest and smallest elements in an array and display to console](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB5%20Q1.s)
-- [Q2: Program to add elements of an array and display sum to console](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB5%20Q2.s)
-- [Q3: Sum the even numbers and odd numbers in a word array A and display the result to the user](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB5%20Q3.s)
-
-## LAB 6:
-
-- [Q1: Program to find length of string in memory and display to console](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB6%20Q1.s)
-- [Q2: Program to reverse a string and display to memory](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB6%20Q2.s)
-- [Q3: Program to check whether given string is a palindrome or not](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB6%20Q3.s)
-- [Q4: Program to concatenate two given strings and display result](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB6%20Q4.s)
-
-## LAB 7:
-
-- [Q1: Program to add, subtract, multiply and divide two numbers using procedures](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB7%20Q1.s)
-- [Q2: Program to implement linear search using procedures](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB7%20Q2.s)
-- [Q3: Program to print Fibonacci series using procedures](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB7%20Q3.s)
-
-## LAB 8:
-
-- [Q1: Program to implement binary search recursively](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB8%20Q1.s)
-- [Q2: Program to find power of a number using recursion](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB8%20Q2.s)
-- [Q3: Program to calculate sum of first n natural numbers using recursion](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB8%20Q3.s)
-
-## LAB 9:
-
-- [Q1: Program to print float and double variables in memory](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB9%20Q1.s)
-- [Q2: Program to take input of float and double values and print](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB9%20Q2.s)
-- [Q3: Program to take radius input and calculate area of circle and display in single precision floating-point](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB9%20Q3.s)
-- [Q4: Program to convert Fahrenheit to Celsius using double precision floating-point values](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB9%20Q4.s)
-- [Q5: Program to calculate ax^2+bx+c with user-input x in single precision floating-point](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB9%20Q5.s)
-- [Q6: Find the sum of an array of single precision floating point values stored in memory](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB9%20Q6.s)
-
-## LAB 10:
-
-- [Q1: Program to add two complex numbers represented using single precision floating-point values](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB10%20Q1.s)
-- [Q2: Compute the average of a list of 5 integer numbers stored in memory and print the result to the user](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB10%20Q2.s)
-- [Q3: Program to compare two floating-point numbers](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB10%20Q3.s)
-- [Q4: Program to input electricity units used and calculate total bill](https://github.com/naganandana-n/Computer_Architecture/blob/main/LAB10%20Q4.s)
-
-
+- [Q1: Write a lex program to: 1. take file input from command line 2. identfier, string, keywords, delimiter, identify and print](https://github.com/naganandana-n/Compiler-Construction/blob/main/MIDSEM%20LAB%20EXAM%20Q'S/MIDSEM%20LAB%20Q1.l)
+- [Q2: Read from file instruction.c and concatenate the strings string 1 and string 2 then check if it's a palindrome or not](https://github.com/naganandana-n/Compiler-Construction/blob/main/MIDSEM%20LAB%20EXAM%20Q'S/MIDSEM%20LAB%20Q2.l)
+- [Q3: Get two numbers as input. Reverse the second number and check if it's equal to the first number. Handle incorrect input and display appropriate message](https://github.com/naganandana-n/Compiler-Construction/blob/main/MIDSEM%20LAB%20EXAM%20Q'S/MIDSEM%20LAB%20Q3.l)
