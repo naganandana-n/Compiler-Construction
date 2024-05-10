@@ -50,4 +50,4 @@ with digits 0 to 9 and underscore character in variable names.](https://github.c
 
 ## COMPRE LAB Q'S:
 
-- [Q1: Write the LEX and YACC in the standard format for the following CFG](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%20EXAM%20Q'S%20-%20COMPRE/PRAC%20COMPRELABQ1.l)
+- [Q1: Write the LEX and YACC in the standard format for the following CFG](https://github.com/naganandana-n/Compiler-Construction/blob/main/LAB%20EXAM%20Q'S%20-%20COMPRE/COMPRE%20LAB%20Q1.l)
