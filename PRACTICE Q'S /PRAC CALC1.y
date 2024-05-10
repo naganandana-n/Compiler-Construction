@@ -6,18 +6,12 @@ void yyerror(char *);
 %}
 
 %token INTEGER PLUS MINUS NL
-%left PLUS MINUS
 
 %%
 
-/*
-Program → E \n
-E → E + E | E - E | int
-*/
-
-program : program expr NL {printf("%d\n", $2);}
-|
+program : expr NL {printf("%d\n", $1); exit(0);}
 ;
+
 expr : INTEGER {$$ = $1;}
 | expr PLUS expr {$$ = $1 + $3;}
 | expr MINUS expr {$$ = $1 - $3;}
@@ -26,7 +20,7 @@ expr : INTEGER {$$ = $1;}
 %%
 
 void yyerror(char *s){
-    fprintf(stderr, "%s\n", s);
+    printf(stderr, "%s\n", s);
 }
 
 int main(){

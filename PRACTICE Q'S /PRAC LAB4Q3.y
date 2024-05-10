@@ -5,8 +5,9 @@ int yylex(void);
 void yyerror(char *);
 %}
 
-%token INTEGER PLUS MINUS NL
+%token INTEGER PLUS MINUS NL MUL DIV LP RP
 %left PLUS MINUS
+%left MUL DIV
 
 %%
 
@@ -21,6 +22,9 @@ program : program expr NL {printf("%d\n", $2);}
 expr : INTEGER {$$ = $1;}
 | expr PLUS expr {$$ = $1 + $3;}
 | expr MINUS expr {$$ = $1 - $3;}
+| expr MUL expr {$$ = $1 * $3;}
+| expr DIV expr {$$ = $1 / $3;}
+| LP expr RP {$$ = $2;}
 ;
 
 %%
@@ -33,3 +37,4 @@ int main(){
     yyparse();
     return 0;
 }
+

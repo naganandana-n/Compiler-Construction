@@ -10,14 +10,9 @@ void yyerror(char *);
 
 %%
 
-/*
-Program → E \n
-E → E + E | E - E | int
-*/
-
-program : program expr NL {printf("%d\n", $2);}
-|
+program : expr NL {printf("%d\n", $2);}
 ;
+
 expr : INTEGER {$$ = $1;}
 | expr PLUS expr {$$ = $1 + $3;}
 | expr MINUS expr {$$ = $1 - $3;}
@@ -33,3 +28,5 @@ int main(){
     yyparse();
     return 0;
 }
+
+
